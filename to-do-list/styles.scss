@@ -1,0 +1,39 @@
+.container{
+margin: 0 auto;
+width: 500px;
+border-radius: 10px;
+background-color: aqua;
+    .form-list{
+      display: flex;
+    //   background-color: rebeccapurple;
+      flex-direction: column;
+      margin: 10px;
+      .alfa{
+        width: 300px;
+        height: 30px;
+        border-radius: 10px;
+      }
+      .betta{
+        width: 70px;
+        height: 30px;
+        border-radius: 7px;
+        border: none;
+        background-color: rgb(19, 107, 113);
+        color: white;
+      }
+    }
+    .ulalist{
+        list-style: none;
+        li{
+           display: flex;
+           gap: 30px;
+         align-items: center;
+           .deletes{
+            height: 30px;
+           }
+           .edits{
+            height: 30px;
+           }
+        }
+    }
+}
